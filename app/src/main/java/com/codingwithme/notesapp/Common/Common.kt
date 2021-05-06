@@ -5,7 +5,7 @@ import com.codingwithme.notesapp.Remote.`RetrofitCliente«`
 
 object Common {
 
-    val BASE_URL="https://qwertqq.000webhostapp.com/myslim/users/"
+    val BASE_URL="https://qwertqq.000webhostapp.com/myslim/"
 
     val api:Api
     get() = `RetrofitCliente«`.getClient(BASE_URL).create(Api::class.java)

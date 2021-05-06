@@ -43,7 +43,7 @@
             android:label="@string/title_activity_maps"></activity>
         <activity android:name=".Menu" />
         <activity android:name=".login" />
-        <activity android:name=".Registo" />
+        <activity android:name=".report" />
         <activity android:name=".first_frag" />
         <activity android:name=".MainActivity">
             <intent-filter>

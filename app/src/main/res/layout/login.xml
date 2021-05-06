@@ -26,7 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/user"
+            android:id="@+id/user2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -52,15 +52,13 @@
             android:layout_marginBottom="8dp"
             android:text="Entrar" />
 
-        <TextView
-            android:id="@+id/textViewRegister"
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="Ainda Não tem conta? Registe-se aqui!"
-            android:textAlignment="center"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            android:text="Login Automático" />
 
     </LinearLayout>
 

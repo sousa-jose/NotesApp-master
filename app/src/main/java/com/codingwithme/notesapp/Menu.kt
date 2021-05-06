@@ -26,9 +26,9 @@ class Menu : AppCompatActivity() {
 
         buttonChange.setOnClickListener{
 
-            val intent1 = Intent(this, login::class.java)
+            val intent9 = Intent(this, login::class.java)
 
-            startActivity(intent1)
+            startActivity(intent9)
         }
 
         /*
