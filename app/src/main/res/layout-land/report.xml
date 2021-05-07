@@ -61,9 +61,10 @@
         android:text="Reportar Situação"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <EditText
         android:id="@+id/tipo"
@@ -91,19 +92,21 @@
         android:text="Adicionar Fotografia"
         app:layout_constraintBottom_toTopOf="@+id/botaoRepor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tipo"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toTopOf="@+id/botaoRepor"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_pick_btn"
+        app:layout_constraintVertical_bias="0.553"
         tools:srcCompat="@tools:sample/avatars" />
 
 

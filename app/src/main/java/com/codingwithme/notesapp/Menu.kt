@@ -14,7 +14,7 @@ class Menu : AppCompatActivity() {
 
         val buttonMudar = findViewById<Button>(R.id.button3)
         val buttonChange = findViewById<Button>(R.id.botaoAceder)
-        //val buttonChange2 = findViewById<Button>(R.id.buttonRegisto)
+        val buttonChange2 = findViewById<Button>(R.id.button)
 
 
         buttonMudar.setOnClickListener{
@@ -31,13 +31,13 @@ class Menu : AppCompatActivity() {
             startActivity(intent9)
         }
 
-        /*
+
         buttonChange2.setOnClickListener{
 
-            val intent2 = Intent(this, Registo::class.java)
+            val intent2 = Intent(this, MapsActivity2::class.java)
 
             startActivity(intent2)
-        }*/
+        }
 
     }
 }
