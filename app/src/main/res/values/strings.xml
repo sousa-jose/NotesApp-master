@@ -16,6 +16,7 @@
 <string name="storage_permission_text" translatable="false">Esta aplicação necessita de permissão</string>
 <string name="search" translatable="false">Pesquise as suas Notas</string>
 <string name="ponto" translatable="false">Ponto Registado</string>
+    <string name="toast" translatable="false">Login efetuado com sucesso</string>
 <!-- TODO: Remove or change this placeholder text -->
 <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 <string name="title_activity_maps" translatable="false">Map</string>

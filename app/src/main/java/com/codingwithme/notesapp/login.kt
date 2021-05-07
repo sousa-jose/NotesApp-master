@@ -53,13 +53,13 @@ class login : AppCompatActivity() {
         mService.login(user)
             .enqueue(object: Callback<APIResponse>{
                 override fun onFailure(call: Call<APIResponse>, t: Throwable) {
-                    Toast.makeText(this@login,"Login Incorreto!",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@login,"Login Invalido",Toast.LENGTH_SHORT).show()
                 }
 
                 override fun onResponse(call: Call<APIResponse>, response: Response<APIResponse>) {
 
                     if (response.isSuccessful){
-                        Toast.makeText(this@login, "Login Efetuado", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@login, getString(R.string.toast), Toast.LENGTH_SHORT).show()
                         val checkBox = findViewById<CheckBox>(R.id.checkBox)
                         val sharedPref : SharedPreferences = getSharedPreferences(getString(R.string.preference_key), Context.MODE_PRIVATE)
                         with(sharedPref.edit()){

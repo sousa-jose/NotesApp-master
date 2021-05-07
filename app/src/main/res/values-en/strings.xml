@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Y</string>
+    <string name="app_name">Aplicação do seu Concelho</string>
     <string name="notes_title" translatable="false">Title</string>
     <string name="notes_sub_title" translatable="false">SubTitle</string>
     <string name="notes_desc" translatable="false">"Describe your report "</string>
     <string name="tipo" translatable="false">Type of Situation</string>
-    <string name="storage_permission_text" translatable="false">This app needs your permisson</string>
-    <string name="search" translatable="false">Shearch your notes</string>
     <string name="notas" translatable="false">notes</string>
     <string name="aceda_conta" translatable="false">Login</string>
     <string name="Verifica" translatable="false">Reported Situation</string>
     <string name="automatico" translatable="false">Automatic Login</string>
+    <string name="storage_permission_text" translatable="false">This app needs your permisson</string>
+    <string name="search" translatable="false">Shearch your notes</string>
+    <string name="toast" translatable="false">Login sucess</string>
 </resources>
