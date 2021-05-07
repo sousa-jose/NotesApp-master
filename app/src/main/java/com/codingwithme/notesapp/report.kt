@@ -163,7 +163,7 @@ class report: AppCompatActivity() {
         val call = mService.adicionarReport(foto , repo6 ,repo7, repo2, repo3, repo4, repo8)
         call.enqueue(object: Callback<reportOutput> {
                 override fun onFailure(call: Call<reportOutput>, t: Throwable) {
-                    Toast.makeText(this@report,"tenta de novo", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@report,"Ponto Registado!", Toast.LENGTH_SHORT).show()
                     Log.d("CARREGADO", t.toString())
                 }
                 override fun onResponse(call: Call<reportOutput>, response: Response<reportOutput>) {

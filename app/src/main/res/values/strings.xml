@@ -1,20 +1,26 @@
+
+
 <resources>
-    <string name="app_name" translatable="false">Aplicação do seu Concelho</string>
-    <string name="notes" translatable="false">As Minhas Notas</string>
-    <string name="notes_title" translatable="false">Titulo</string>
-    <string name="notes_sub_title" translatable="false">Subtitulo</string>
-    <string name="notes_desc" translatable="false">Descreva aqui a situação a reportar</string>
-    <string name="tipo" translatable="false">Tipo de situação(Ex:acidente, problema)</string>
-    <string name="web_url">Enter Web Url</string>
-    <string name="ok" translatable="false">Ok</string>
-    <string name="cancel" translatable="false">Cancelar</string>
-    <string name="storage_permission_text" translatable="false">Esta aplicação necessita de permissão</string>
-    <string name="search" translatable="false">Pesquise as suas Notas</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="title_activity_maps" translatable="false">Map</string>
-    <string name="title_activity_maps2" translatable="false">Map</string>
-    <string name="preference_key" translatable="false">file</string>
-    <string name="check_login" translatable="false">check</string>
-    <string name="id_user" translatable="false">file</string>
+<string name="app_name">Aplicação do seu Concelho</string>
+<string name="notes" translatable="false">As Minhas Notas</string>
+<string name="notes_title" translatable="false">Titulo</string>
+<string name="notes_sub_title" translatable="false">Subtitulo</string>
+<string name="notes_desc" translatable="false">Descreva aqui a situação a reportar</string>
+<string name="tipo" translatable="false">Tipo de situação(Ex:acidente, problema)</string>
+<string name="notas" translatable="false"> Notas</string>
+<string name="aceda_conta" translatable="false"> Aceda a sua conta</string>
+<string name="Verifica" translatable="false"> Verifique as situações Reportadas</string>
+<string name="automatico" translatable="false">Login Automático</string>
+<string name="ok" translatable="false">Ok</string>
+<string name="cancel" translatable="false">Cancelar</string>
+<string name="storage_permission_text" translatable="false">Esta aplicação necessita de permissão</string>
+<string name="search" translatable="false">Pesquise as suas Notas</string>
+<string name="ponto" translatable="false">Ponto Registado</string>
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+<string name="title_activity_maps" translatable="false">Map</string>
+<string name="title_activity_maps2" translatable="false">Map</string>
+<string name="preference_key" translatable="false">file</string>
+<string name="check_login" translatable="false">check</string>
+<string name="id_user" translatable="false">file</string>
 </resources>

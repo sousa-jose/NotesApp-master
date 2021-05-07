@@ -116,11 +116,7 @@ class MapsActivity2 : AppCompatActivity(), OnMapReadyCallback {
                 Toast.makeText(this@MapsActivity2,"Falhou!", Toast.LENGTH_SHORT).show()
             }
             override fun onResponse(call: Call<List<modelReport>>, response: Response<List<modelReport>>) {
-                //if(response!!.body()!!.error)
-                //  Toast.makeText(this@login,response.body()!!.error_msg,Toast.LENGTH_SHORT).show()
-                // else
 
-                //Toast.makeText(this@MapsActivity,response.body().toString(), Toast.LENGTH_SHORT).show()
                 response.body()!!.forEach {
                     val latLng = LatLng(it.latitude.toDouble(), it.longitude.toDouble())
                     val markerOptions = MarkerOptions().position(latLng)
